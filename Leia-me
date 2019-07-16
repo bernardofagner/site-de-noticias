@@ -1,0 +1,7 @@
+Este projeto é um site de noticias.
+
+As noticias são classificadas por categorias (Beleza, Cozinha, Política, etc...)
+As notícias estão guardadas no banco de dados e as noticias mais recentes aparecerão no topo da página.
+Pode-se filtrar as notícias pela sua categoria.
+
+O sistema dará suporte ao CRUD associado às notícias em uma área administrativa.

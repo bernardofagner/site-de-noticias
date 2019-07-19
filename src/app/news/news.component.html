@@ -1,9 +1,11 @@
 <section>
     <div class="row">    
         <div *ngFor="let a_new of news" class="card col-md-4" >
-            <img class="card-img-top" src="{{a_new.imagePath}}" alt="Card image cap">
+            <img class="card-img-top" [src]="a_new.imagePath" alt="Card image cap">
             <div class="card-body">
-                <p class="card-text">{{a_new.titulo}}</p>
+                <h3 class="card-text">{{a_new.titulo}}</h3>
+                <p> {{a_new.conteudo}} </p>
+                <p> {{a_new.data}} </p>
             </div>
         </div>
     </div>  

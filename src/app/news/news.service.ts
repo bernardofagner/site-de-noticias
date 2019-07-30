@@ -42,9 +42,8 @@ export class NewsService{
     
     constructor(){}
 
-    /*Após buscar os dados no "BD" retorna para o componente que vai utiliza-los */
+    /*Após buscar os dados no "BD" (que é a variavel dados) retorna para o componente que vai utiliza-los */
     allNews(): News[] {
         return this.dados;
     }
-
 }

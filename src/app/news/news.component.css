@@ -1,3 +1,17 @@
 p.align-right{
     text-align: right;
 }
+
+.card{
+    margin: 7px 7px 7px 7px;
+}
+
+.col-md-4{
+    max-width: 30%;
+    padding-top: 15px;
+}
+
+.date{
+    position: absolute;
+    bottom: 5px;
+}
